@@ -1,0 +1,108 @@
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_3.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_4.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/LED.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/LED_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Led_1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Led_1_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M1_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M2_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor1_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor2_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/PWM1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/PWM2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_IN.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_IN_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_OUT.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_OUT_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM1_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM2_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/faseM1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/faseM2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/project.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM1.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM1_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM2.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM2_aliases.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/teclado.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/up.h C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/main.c 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_3.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Clock_4.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CyLib.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/CySpc.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/LED.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Led_1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Led_1_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M1_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/M2_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor1_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/Motor2_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/PWM1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/PWM2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_IN.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_IN_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_OUT.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/TECLADO_OUT_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyPm.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydevice.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM1_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/detectorFaseM2_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/faseM1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/faseM2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/project.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM1.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM1_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM2.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/sentidodegiroM2_aliases.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/teclado.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/Generated_Source/PSoC5/up.h : 
+
+C:/Users/Rowel/Desktop/v05-2/RowelFut/RowelFut.cydsn/main.c : 
+

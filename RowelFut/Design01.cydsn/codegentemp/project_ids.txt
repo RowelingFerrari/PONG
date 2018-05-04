@@ -1,0 +1,6 @@
+C:\Users\Rowel\Documents\PSoC Creator\RowelFut\Design01.cydsn\Design01.cyprj|1410c392-f833-49b9-8383-6e9aa8dd53b4
+I:\Programas\x86\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f9382976-2159-4f6b-9507-23b5c510a001
+C:\Users\Rowel\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|93d1423c-6719-453a-9dc2-f027983d5acd
+I:\Programas\x86\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a6bd018e-cb6c-4f82-b559-0bf48764fced
+I:\Programas\x86\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4f39e560-905b-4a38-947d-3d61b25b75d6
+I:\Programas\x86\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3bb9c76f-c5a2-4126-a8be-0f3cf34f036a

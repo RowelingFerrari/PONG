@@ -1,0 +1,706 @@
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 208
+  28              	cy_meta_configecc:
+  29 0000 01       		.byte	1
+  30 0001 4F       		.byte	79
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 52       		.byte	82
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 15       		.byte	21
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 22       		.byte	34
+  42 000d 18       		.byte	24
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 0E       		.byte	14
+  46 0011 19       		.byte	25
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 02       		.byte	2
+  50 0015 1B       		.byte	27
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 02       		.byte	2
+  54 0019 48       		.byte	72
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 02       		.byte	2
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 2
+
+
+  58 001d 49       		.byte	73
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 02       		.byte	2
+  62 0021 4C       		.byte	76
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 02       		.byte	2
+  66 0025 4D       		.byte	77
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 02       		.byte	2
+  70 0029 50       		.byte	80
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 0A       		.byte	10
+  74 002d 36       		.byte	54
+  75 002e 08       		.byte	8
+  76 002f 80       		.byte	-128
+  77 0030 EE       		.byte	-18
+  78 0031 04       		.byte	4
+  79 0032 82       		.byte	-126
+  80 0033 01       		.byte	1
+  81 0034 92       		.byte	-110
+  82 0035 02       		.byte	2
+  83 0036 A6       		.byte	-90
+  84 0037 01       		.byte	1
+  85 0038 B0       		.byte	-80
+  86 0039 01       		.byte	1
+  87 003a B6       		.byte	-74
+  88 003b 02       		.byte	2
+  89 003c B8       		.byte	-72
+  90 003d 20       		.byte	32
+  91 003e BE       		.byte	-66
+  92 003f 10       		.byte	16
+  93 0040 C0       		.byte	-64
+  94 0041 10       		.byte	16
+  95 0042 C1       		.byte	-63
+  96 0043 05       		.byte	5
+  97 0044 C5       		.byte	-59
+  98 0045 01       		.byte	1
+  99 0046 C7       		.byte	-57
+ 100 0047 20       		.byte	32
+ 101 0048 C8       		.byte	-56
+ 102 0049 21       		.byte	33
+ 103 004a C9       		.byte	-55
+ 104 004b FF       		.byte	-1
+ 105 004c CA       		.byte	-54
+ 106 004d FF       		.byte	-1
+ 107 004e CB       		.byte	-53
+ 108 004f FF       		.byte	-1
+ 109 0050 CD       		.byte	-51
+ 110 0051 A0       		.byte	-96
+ 111 0052 CF       		.byte	-49
+ 112 0053 04       		.byte	4
+ 113 0054 D0       		.byte	-48
+ 114 0055 18       		.byte	24
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 3
+
+
+ 115 0056 D2       		.byte	-46
+ 116 0057 80       		.byte	-128
+ 117 0058 D8       		.byte	-40
+ 118 0059 04       		.byte	4
+ 119 005a DA       		.byte	-38
+ 120 005b 04       		.byte	4
+ 121 005c DB       		.byte	-37
+ 122 005d 04       		.byte	4
+ 123 005e DC       		.byte	-36
+ 124 005f 01       		.byte	1
+ 125 0060 DD       		.byte	-35
+ 126 0061 11       		.byte	17
+ 127 0062 DF       		.byte	-33
+ 128 0063 01       		.byte	1
+ 129 0064 E0       		.byte	-32
+ 130 0065 40       		.byte	64
+ 131 0066 E2       		.byte	-30
+ 132 0067 C0       		.byte	-64
+ 133 0068 E4       		.byte	-28
+ 134 0069 40       		.byte	64
+ 135 006a E5       		.byte	-27
+ 136 006b 40       		.byte	64
+ 137 006c E6       		.byte	-26
+ 138 006d C0       		.byte	-64
+ 139 006e E8       		.byte	-24
+ 140 006f C0       		.byte	-64
+ 141 0070 EA       		.byte	-22
+ 142 0071 C0       		.byte	-64
+ 143 0072 EC       		.byte	-20
+ 144 0073 C0       		.byte	-64
+ 145 0074 EE       		.byte	-18
+ 146 0075 C0       		.byte	-64
+ 147 0076 00       		.byte	0
+ 148 0077 01       		.byte	1
+ 149 0078 09       		.byte	9
+ 150 0079 02       		.byte	2
+ 151 007a 10       		.byte	16
+ 152 007b 20       		.byte	32
+ 153 007c 18       		.byte	24
+ 154 007d 81       		.byte	-127
+ 155 007e 19       		.byte	25
+ 156 007f 10       		.byte	16
+ 157 0080 40       		.byte	64
+ 158 0081 01       		.byte	1
+ 159 0082 48       		.byte	72
+ 160 0083 22       		.byte	34
+ 161 0084 50       		.byte	80
+ 162 0085 02       		.byte	2
+ 163 0086 71       		.byte	113
+ 164 0087 02       		.byte	2
+ 165 0088 C0       		.byte	-64
+ 166 0089 08       		.byte	8
+ 167 008a C2       		.byte	-62
+ 168 008b 08       		.byte	8
+ 169 008c C4       		.byte	-60
+ 170 008d 04       		.byte	4
+ 171 008e D0       		.byte	-48
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 4
+
+
+ 172 008f 08       		.byte	8
+ 173 0090 D2       		.byte	-46
+ 174 0091 08       		.byte	8
+ 175 0092 A9       		.byte	-87
+ 176 0093 10       		.byte	16
+ 177 0094 B4       		.byte	-76
+ 178 0095 40       		.byte	64
+ 179 0096 64       		.byte	100
+ 180 0097 08       		.byte	8
+ 181 0098 D8       		.byte	-40
+ 182 0099 80       		.byte	-128
+ 183 009a A8       		.byte	-88
+ 184 009b 08       		.byte	8
+ 185 009c EE       		.byte	-18
+ 186 009d 20       		.byte	32
+ 187 009e 5C       		.byte	92
+ 188 009f 01       		.byte	1
+ 189 00a0 D6       		.byte	-42
+ 190 00a1 01       		.byte	1
+ 191 00a2 B4       		.byte	-76
+ 192 00a3 01       		.byte	1
+ 193 00a4 EC       		.byte	-20
+ 194 00a5 08       		.byte	8
+ 195 00a6 10       		.byte	16
+ 196 00a7 02       		.byte	2
+ 197 00a8 1C       		.byte	28
+ 198 00a9 02       		.byte	2
+ 199 00aa 00       		.byte	0
+ 200 00ab 00       		.byte	0
+ 201 00ac 02       		.byte	2
+ 202 00ad 02       		.byte	2
+ 203 00ae 02       		.byte	2
+ 204 00af 02       		.byte	2
+ 205 00b0 00       		.byte	0
+ 206 00b1 00       		.byte	0
+ 207 00b2 00       		.byte	0
+ 208 00b3 00       		.byte	0
+ 209 00b4 0F       		.byte	15
+ 210 00b5 00       		.byte	0
+ 211 00b6 00       		.byte	0
+ 212 00b7 0F       		.byte	15
+ 213 00b8 00       		.byte	0
+ 214 00b9 00       		.byte	0
+ 215 00ba 00       		.byte	0
+ 216 00bb 00       		.byte	0
+ 217 00bc 00       		.byte	0
+ 218 00bd 00       		.byte	0
+ 219 00be 00       		.byte	0
+ 220 00bf 00       		.byte	0
+ 221 00c0 00       		.byte	0
+ 222 00c1 7F       		.byte	127
+ 223 00c2 7F       		.byte	127
+ 224 00c3 00       		.byte	0
+ 225 00c4 00       		.byte	0
+ 226 00c5 00       		.byte	0
+ 227 00c6 00       		.byte	0
+ 228 00c7 00       		.byte	0
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 5
+
+
+ 229 00c8 00       		.byte	0
+ 230 00c9 8B       		.byte	-117
+ 231 00ca 8B       		.byte	-117
+ 232 00cb 00       		.byte	0
+ 233 00cc 80       		.byte	-128
+ 234 00cd 00       		.byte	0
+ 235 00ce 40       		.byte	64
+ 236 00cf 00       		.byte	0
+ 237              		.section	.cywolatch,"a",%progbits
+ 238              		.align	2
+ 239              		.type	cy_meta_wonvl, %object
+ 240              		.size	cy_meta_wonvl, 4
+ 241              	cy_meta_wonvl:
+ 242 0000 BC       		.byte	-68
+ 243 0001 90       		.byte	-112
+ 244 0002 AC       		.byte	-84
+ 245 0003 AF       		.byte	-81
+ 246              		.section	.cycustnvl,"a",%progbits
+ 247              		.align	2
+ 248              		.type	cy_meta_custnvl, %object
+ 249              		.size	cy_meta_custnvl, 4
+ 250              	cy_meta_custnvl:
+ 251 0000 00       		.byte	0
+ 252 0001 00       		.byte	0
+ 253 0002 40       		.byte	64
+ 254 0003 05       		.byte	5
+ 255              		.section	.cymeta,"a",%progbits
+ 256              		.align	2
+ 257              		.type	cy_metadata, %object
+ 258              		.size	cy_metadata, 12
+ 259              	cy_metadata:
+ 260 0000 00       		.byte	0
+ 261 0001 01       		.byte	1
+ 262 0002 2E       		.byte	46
+ 263 0003 16       		.byte	22
+ 264 0004 10       		.byte	16
+ 265 0005 69       		.byte	105
+ 266 0006 00       		.byte	0
+ 267 0007 01       		.byte	1
+ 268 0008 00       		.byte	0
+ 269 0009 00       		.byte	0
+ 270 000a 00       		.byte	0
+ 271 000b 00       		.byte	0
+ 272              		.section	.cyflashprotect,"a",%progbits
+ 273              		.align	2
+ 274              		.type	cy_meta_flashprotect, %object
+ 275              		.size	cy_meta_flashprotect, 256
+ 276              	cy_meta_flashprotect:
+ 277 0000 00000000 		.space	256
+ 277      00000000 
+ 277      00000000 
+ 277      00000000 
+ 277      00000000 
+ 278              		.text
+ 279              	.Letext0:
+ 280              		.file 1 "cymetadata.c"
+ 281              		.file 2 "cytypes.h"
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 6
+
+
+ 282              		.section	.debug_info,"",%progbits
+ 283              	.Ldebug_info0:
+ 284 0000 3B010000 		.4byte	0x13b
+ 285 0004 0400     		.2byte	0x4
+ 286 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 287 000a 04       		.byte	0x4
+ 288 000b 01       		.uleb128 0x1
+ 289 000c 44000000 		.4byte	.LASF18
+ 290 0010 0C       		.byte	0xc
+ 291 0011 00000000 		.4byte	.LASF19
+ 292 0015 2D010000 		.4byte	.LASF20
+ 293 0019 00000000 		.4byte	.Ldebug_line0
+ 294 001d 02       		.uleb128 0x2
+ 295 001e 01       		.byte	0x1
+ 296 001f 06       		.byte	0x6
+ 297 0020 C3010000 		.4byte	.LASF0
+ 298 0024 02       		.uleb128 0x2
+ 299 0025 01       		.byte	0x1
+ 300 0026 08       		.byte	0x8
+ 301 0027 36000000 		.4byte	.LASF1
+ 302 002b 02       		.uleb128 0x2
+ 303 002c 02       		.byte	0x2
+ 304 002d 05       		.byte	0x5
+ 305 002e AA010000 		.4byte	.LASF2
+ 306 0032 02       		.uleb128 0x2
+ 307 0033 02       		.byte	0x2
+ 308 0034 07       		.byte	0x7
+ 309 0035 E4000000 		.4byte	.LASF3
+ 310 0039 02       		.uleb128 0x2
+ 311 003a 04       		.byte	0x4
+ 312 003b 05       		.byte	0x5
+ 313 003c BA010000 		.4byte	.LASF4
+ 314 0040 02       		.uleb128 0x2
+ 315 0041 04       		.byte	0x4
+ 316 0042 07       		.byte	0x7
+ 317 0043 D2000000 		.4byte	.LASF5
+ 318 0047 02       		.uleb128 0x2
+ 319 0048 08       		.byte	0x8
+ 320 0049 05       		.byte	0x5
+ 321 004a 97010000 		.4byte	.LASF6
+ 322 004e 02       		.uleb128 0x2
+ 323 004f 08       		.byte	0x8
+ 324 0050 07       		.byte	0x7
+ 325 0051 1F000000 		.4byte	.LASF7
+ 326 0055 03       		.uleb128 0x3
+ 327 0056 04       		.byte	0x4
+ 328 0057 05       		.byte	0x5
+ 329 0058 696E7400 		.ascii	"int\000"
+ 330 005c 02       		.uleb128 0x2
+ 331 005d 04       		.byte	0x4
+ 332 005e 07       		.byte	0x7
+ 333 005f 20010000 		.4byte	.LASF8
+ 334 0063 04       		.uleb128 0x4
+ 335 0064 B4010000 		.4byte	.LASF21
+ 336 0068 02       		.byte	0x2
+ 337 0069 9201     		.2byte	0x192
+ 338 006b 24000000 		.4byte	0x24
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 7
+
+
+ 339 006f 02       		.uleb128 0x2
+ 340 0070 04       		.byte	0x4
+ 341 0071 04       		.byte	0x4
+ 342 0072 19000000 		.4byte	.LASF9
+ 343 0076 02       		.uleb128 0x2
+ 344 0077 08       		.byte	0x8
+ 345 0078 04       		.byte	0x4
+ 346 0079 F7000000 		.4byte	.LASF10
+ 347 007d 02       		.uleb128 0x2
+ 348 007e 01       		.byte	0x1
+ 349 007f 08       		.byte	0x8
+ 350 0080 A5010000 		.4byte	.LASF11
+ 351 0084 05       		.uleb128 0x5
+ 352 0085 9B000000 		.4byte	0x9b
+ 353 0089 94000000 		.4byte	0x94
+ 354 008d 06       		.uleb128 0x6
+ 355 008e 94000000 		.4byte	0x94
+ 356 0092 CF       		.byte	0xcf
+ 357 0093 00       		.byte	0
+ 358 0094 02       		.uleb128 0x2
+ 359 0095 04       		.byte	0x4
+ 360 0096 07       		.byte	0x7
+ 361 0097 8E010000 		.4byte	.LASF12
+ 362 009b 07       		.uleb128 0x7
+ 363 009c 63000000 		.4byte	0x63
+ 364 00a0 08       		.uleb128 0x8
+ 365 00a1 0E010000 		.4byte	.LASF13
+ 366 00a5 01       		.byte	0x1
+ 367 00a6 1F       		.byte	0x1f
+ 368 00a7 B1000000 		.4byte	0xb1
+ 369 00ab 05       		.uleb128 0x5
+ 370 00ac 03       		.byte	0x3
+ 371 00ad 00000000 		.4byte	cy_meta_configecc
+ 372 00b1 07       		.uleb128 0x7
+ 373 00b2 84000000 		.4byte	0x84
+ 374 00b6 05       		.uleb128 0x5
+ 375 00b7 9B000000 		.4byte	0x9b
+ 376 00bb C6000000 		.4byte	0xc6
+ 377 00bf 06       		.uleb128 0x6
+ 378 00c0 94000000 		.4byte	0x94
+ 379 00c4 03       		.byte	0x3
+ 380 00c5 00       		.byte	0
+ 381 00c6 08       		.uleb128 0x8
+ 382 00c7 FE000000 		.4byte	.LASF14
+ 383 00cb 01       		.byte	0x1
+ 384 00cc 46       		.byte	0x46
+ 385 00cd D7000000 		.4byte	0xd7
+ 386 00d1 05       		.uleb128 0x5
+ 387 00d2 03       		.byte	0x3
+ 388 00d3 00000000 		.4byte	cy_meta_custnvl
+ 389 00d7 07       		.uleb128 0x7
+ 390 00d8 B6000000 		.4byte	0xb6
+ 391 00dc 08       		.uleb128 0x8
+ 392 00dd 80010000 		.4byte	.LASF15
+ 393 00e1 01       		.byte	0x1
+ 394 00e2 54       		.byte	0x54
+ 395 00e3 ED000000 		.4byte	0xed
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 8
+
+
+ 396 00e7 05       		.uleb128 0x5
+ 397 00e8 03       		.byte	0x3
+ 398 00e9 00000000 		.4byte	cy_meta_wonvl
+ 399 00ed 07       		.uleb128 0x7
+ 400 00ee B6000000 		.4byte	0xb6
+ 401 00f2 05       		.uleb128 0x5
+ 402 00f3 9B000000 		.4byte	0x9b
+ 403 00f7 02010000 		.4byte	0x102
+ 404 00fb 06       		.uleb128 0x6
+ 405 00fc 94000000 		.4byte	0x94
+ 406 0100 FF       		.byte	0xff
+ 407 0101 00       		.byte	0
+ 408 0102 08       		.uleb128 0x8
+ 409 0103 6B010000 		.4byte	.LASF16
+ 410 0107 01       		.byte	0x1
+ 411 0108 62       		.byte	0x62
+ 412 0109 13010000 		.4byte	0x113
+ 413 010d 05       		.uleb128 0x5
+ 414 010e 03       		.byte	0x3
+ 415 010f 00000000 		.4byte	cy_meta_flashprotect
+ 416 0113 07       		.uleb128 0x7
+ 417 0114 F2000000 		.4byte	0xf2
+ 418 0118 05       		.uleb128 0x5
+ 419 0119 9B000000 		.4byte	0x9b
+ 420 011d 28010000 		.4byte	0x128
+ 421 0121 06       		.uleb128 0x6
+ 422 0122 94000000 		.4byte	0x94
+ 423 0126 0B       		.byte	0xb
+ 424 0127 00       		.byte	0
+ 425 0128 08       		.uleb128 0x8
+ 426 0129 0D000000 		.4byte	.LASF17
+ 427 012d 01       		.byte	0x1
+ 428 012e 8F       		.byte	0x8f
+ 429 012f 39010000 		.4byte	0x139
+ 430 0133 05       		.uleb128 0x5
+ 431 0134 03       		.byte	0x3
+ 432 0135 00000000 		.4byte	cy_metadata
+ 433 0139 07       		.uleb128 0x7
+ 434 013a 18010000 		.4byte	0x118
+ 435 013e 00       		.byte	0
+ 436              		.section	.debug_abbrev,"",%progbits
+ 437              	.Ldebug_abbrev0:
+ 438 0000 01       		.uleb128 0x1
+ 439 0001 11       		.uleb128 0x11
+ 440 0002 01       		.byte	0x1
+ 441 0003 25       		.uleb128 0x25
+ 442 0004 0E       		.uleb128 0xe
+ 443 0005 13       		.uleb128 0x13
+ 444 0006 0B       		.uleb128 0xb
+ 445 0007 03       		.uleb128 0x3
+ 446 0008 0E       		.uleb128 0xe
+ 447 0009 1B       		.uleb128 0x1b
+ 448 000a 0E       		.uleb128 0xe
+ 449 000b 10       		.uleb128 0x10
+ 450 000c 17       		.uleb128 0x17
+ 451 000d 00       		.byte	0
+ 452 000e 00       		.byte	0
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 9
+
+
+ 453 000f 02       		.uleb128 0x2
+ 454 0010 24       		.uleb128 0x24
+ 455 0011 00       		.byte	0
+ 456 0012 0B       		.uleb128 0xb
+ 457 0013 0B       		.uleb128 0xb
+ 458 0014 3E       		.uleb128 0x3e
+ 459 0015 0B       		.uleb128 0xb
+ 460 0016 03       		.uleb128 0x3
+ 461 0017 0E       		.uleb128 0xe
+ 462 0018 00       		.byte	0
+ 463 0019 00       		.byte	0
+ 464 001a 03       		.uleb128 0x3
+ 465 001b 24       		.uleb128 0x24
+ 466 001c 00       		.byte	0
+ 467 001d 0B       		.uleb128 0xb
+ 468 001e 0B       		.uleb128 0xb
+ 469 001f 3E       		.uleb128 0x3e
+ 470 0020 0B       		.uleb128 0xb
+ 471 0021 03       		.uleb128 0x3
+ 472 0022 08       		.uleb128 0x8
+ 473 0023 00       		.byte	0
+ 474 0024 00       		.byte	0
+ 475 0025 04       		.uleb128 0x4
+ 476 0026 16       		.uleb128 0x16
+ 477 0027 00       		.byte	0
+ 478 0028 03       		.uleb128 0x3
+ 479 0029 0E       		.uleb128 0xe
+ 480 002a 3A       		.uleb128 0x3a
+ 481 002b 0B       		.uleb128 0xb
+ 482 002c 3B       		.uleb128 0x3b
+ 483 002d 05       		.uleb128 0x5
+ 484 002e 49       		.uleb128 0x49
+ 485 002f 13       		.uleb128 0x13
+ 486 0030 00       		.byte	0
+ 487 0031 00       		.byte	0
+ 488 0032 05       		.uleb128 0x5
+ 489 0033 01       		.uleb128 0x1
+ 490 0034 01       		.byte	0x1
+ 491 0035 49       		.uleb128 0x49
+ 492 0036 13       		.uleb128 0x13
+ 493 0037 01       		.uleb128 0x1
+ 494 0038 13       		.uleb128 0x13
+ 495 0039 00       		.byte	0
+ 496 003a 00       		.byte	0
+ 497 003b 06       		.uleb128 0x6
+ 498 003c 21       		.uleb128 0x21
+ 499 003d 00       		.byte	0
+ 500 003e 49       		.uleb128 0x49
+ 501 003f 13       		.uleb128 0x13
+ 502 0040 2F       		.uleb128 0x2f
+ 503 0041 0B       		.uleb128 0xb
+ 504 0042 00       		.byte	0
+ 505 0043 00       		.byte	0
+ 506 0044 07       		.uleb128 0x7
+ 507 0045 26       		.uleb128 0x26
+ 508 0046 00       		.byte	0
+ 509 0047 49       		.uleb128 0x49
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 10
+
+
+ 510 0048 13       		.uleb128 0x13
+ 511 0049 00       		.byte	0
+ 512 004a 00       		.byte	0
+ 513 004b 08       		.uleb128 0x8
+ 514 004c 34       		.uleb128 0x34
+ 515 004d 00       		.byte	0
+ 516 004e 03       		.uleb128 0x3
+ 517 004f 0E       		.uleb128 0xe
+ 518 0050 3A       		.uleb128 0x3a
+ 519 0051 0B       		.uleb128 0xb
+ 520 0052 3B       		.uleb128 0x3b
+ 521 0053 0B       		.uleb128 0xb
+ 522 0054 49       		.uleb128 0x49
+ 523 0055 13       		.uleb128 0x13
+ 524 0056 3F       		.uleb128 0x3f
+ 525 0057 19       		.uleb128 0x19
+ 526 0058 02       		.uleb128 0x2
+ 527 0059 18       		.uleb128 0x18
+ 528 005a 00       		.byte	0
+ 529 005b 00       		.byte	0
+ 530 005c 00       		.byte	0
+ 531              		.section	.debug_aranges,"",%progbits
+ 532 0000 14000000 		.4byte	0x14
+ 533 0004 0200     		.2byte	0x2
+ 534 0006 00000000 		.4byte	.Ldebug_info0
+ 535 000a 04       		.byte	0x4
+ 536 000b 00       		.byte	0
+ 537 000c 0000     		.2byte	0
+ 538 000e 0000     		.2byte	0
+ 539 0010 00000000 		.4byte	0
+ 540 0014 00000000 		.4byte	0
+ 541              		.section	.debug_line,"",%progbits
+ 542              	.Ldebug_line0:
+ 543 0000 36000000 		.section	.debug_str,"MS",%progbits,1
+ 543      02003000 
+ 543      00000201 
+ 543      FB0E0D00 
+ 543      01010101 
+ 544              	.LASF19:
+ 545 0000 63796D65 		.ascii	"cymetadata.c\000"
+ 545      74616461 
+ 545      74612E63 
+ 545      00
+ 546              	.LASF17:
+ 547 000d 63795F6D 		.ascii	"cy_metadata\000"
+ 547      65746164 
+ 547      61746100 
+ 548              	.LASF9:
+ 549 0019 666C6F61 		.ascii	"float\000"
+ 549      7400
+ 550              	.LASF7:
+ 551 001f 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 551      206C6F6E 
+ 551      6720756E 
+ 551      7369676E 
+ 551      65642069 
+ 552              	.LASF1:
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 11
+
+
+ 553 0036 756E7369 		.ascii	"unsigned char\000"
+ 553      676E6564 
+ 553      20636861 
+ 553      7200
+ 554              	.LASF18:
+ 555 0044 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 555      43313120 
+ 555      352E342E 
+ 555      31203230 
+ 555      31363036 
+ 556 0077 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 556      20726576 
+ 556      6973696F 
+ 556      6E203233 
+ 556      37373135 
+ 557 00aa 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 557      66756E63 
+ 557      74696F6E 
+ 557      2D736563 
+ 557      74696F6E 
+ 558              	.LASF5:
+ 559 00d2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 559      20756E73 
+ 559      69676E65 
+ 559      6420696E 
+ 559      7400
+ 560              	.LASF3:
+ 561 00e4 73686F72 		.ascii	"short unsigned int\000"
+ 561      7420756E 
+ 561      7369676E 
+ 561      65642069 
+ 561      6E7400
+ 562              	.LASF10:
+ 563 00f7 646F7562 		.ascii	"double\000"
+ 563      6C6500
+ 564              	.LASF14:
+ 565 00fe 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 565      6574615F 
+ 565      63757374 
+ 565      6E766C00 
+ 566              	.LASF13:
+ 567 010e 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 567      6574615F 
+ 567      636F6E66 
+ 567      69676563 
+ 567      6300
+ 568              	.LASF8:
+ 569 0120 756E7369 		.ascii	"unsigned int\000"
+ 569      676E6564 
+ 569      20696E74 
+ 569      00
+ 570              	.LASF20:
+ 571 012d 433A5C55 		.ascii	"C:\\Users\\Rowel\\Documents\\PSoC Creator\\RowelFut"
+ 571      73657273 
+ 571      5C526F77 
+ 571      656C5C44 
+ 571      6F63756D 
+ARM GAS  C:\Users\Rowel\AppData\Local\Temp\ccOd6aer.s 			page 12
+
+
+ 572 015b 5C446573 		.ascii	"\\Design01.cydsn\000"
+ 572      69676E30 
+ 572      312E6379 
+ 572      64736E00 
+ 573              	.LASF16:
+ 574 016b 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 574      6574615F 
+ 574      666C6173 
+ 574      6870726F 
+ 574      74656374 
+ 575              	.LASF15:
+ 576 0180 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 576      6574615F 
+ 576      776F6E76 
+ 576      6C00
+ 577              	.LASF12:
+ 578 018e 73697A65 		.ascii	"sizetype\000"
+ 578      74797065 
+ 578      00
+ 579              	.LASF6:
+ 580 0197 6C6F6E67 		.ascii	"long long int\000"
+ 580      206C6F6E 
+ 580      6720696E 
+ 580      7400
+ 581              	.LASF11:
+ 582 01a5 63686172 		.ascii	"char\000"
+ 582      00
+ 583              	.LASF2:
+ 584 01aa 73686F72 		.ascii	"short int\000"
+ 584      7420696E 
+ 584      7400
+ 585              	.LASF21:
+ 586 01b4 75696E74 		.ascii	"uint8\000"
+ 586      3800
+ 587              	.LASF4:
+ 588 01ba 6C6F6E67 		.ascii	"long int\000"
+ 588      20696E74 
+ 588      00
+ 589              	.LASF0:
+ 590 01c3 7369676E 		.ascii	"signed char\000"
+ 590      65642063 
+ 590      68617200 
+ 591              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

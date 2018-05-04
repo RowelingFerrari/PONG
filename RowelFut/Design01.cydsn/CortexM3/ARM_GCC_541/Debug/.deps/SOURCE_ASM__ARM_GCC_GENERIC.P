@@ -1,0 +1,10 @@
+C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/CyBootAsmGnu.s C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cydevicegnu.inc C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cydevicegnu_trm.inc C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cyfittergnu.inc 
+
+C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/CyBootAsmGnu.s : 
+
+C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cydevicegnu.inc : 
+
+C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cydevicegnu_trm.inc : 
+
+C:/Users/Rowel/Documents/PSoC\ Creator/RowelFut/Design01.cydsn/cyfittergnu.inc : 
+

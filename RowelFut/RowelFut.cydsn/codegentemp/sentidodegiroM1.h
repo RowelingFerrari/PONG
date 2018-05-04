@@ -1,0 +1,166 @@
+/*******************************************************************************
+* File Name: sentidodegiroM1.h  
+* Version 2.20
+*
+* Description:
+*  This file contains Pin function prototypes and register defines
+*
+* Note:
+*
+********************************************************************************
+* Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+* You may use this file only in accordance with the license, terms, conditions, 
+* disclaimers, and limitations in the end user license agreement accompanying 
+* the software package with which this file was provided.
+*******************************************************************************/
+
+#if !defined(CY_PINS_sentidodegiroM1_H) /* Pins sentidodegiroM1_H */
+#define CY_PINS_sentidodegiroM1_H
+
+#include "cytypes.h"
+#include "cyfitter.h"
+#include "cypins.h"
+#include "sentidodegiroM1_aliases.h"
+
+/* APIs are not generated for P15[7:6] */
+#if !(CY_PSOC5A &&\
+	 sentidodegiroM1__PORT == 15 && ((sentidodegiroM1__MASK & 0xC0) != 0))
+
+
+/***************************************
+*        Function Prototypes             
+***************************************/    
+
+/**
+* \addtogroup group_general
+* @{
+*/
+void    sentidodegiroM1_Write(uint8 value);
+void    sentidodegiroM1_SetDriveMode(uint8 mode);
+uint8   sentidodegiroM1_ReadDataReg(void);
+uint8   sentidodegiroM1_Read(void);
+void    sentidodegiroM1_SetInterruptMode(uint16 position, uint16 mode);
+uint8   sentidodegiroM1_ClearInterrupt(void);
+/** @} general */
+
+/***************************************
+*           API Constants        
+***************************************/
+/**
+* \addtogroup group_constants
+* @{
+*/
+    /** \addtogroup driveMode Drive mode constants
+     * \brief Constants to be passed as "mode" parameter in the sentidodegiroM1_SetDriveMode() function.
+     *  @{
+     */
+        #define sentidodegiroM1_DM_ALG_HIZ         PIN_DM_ALG_HIZ
+        #define sentidodegiroM1_DM_DIG_HIZ         PIN_DM_DIG_HIZ
+        #define sentidodegiroM1_DM_RES_UP          PIN_DM_RES_UP
+        #define sentidodegiroM1_DM_RES_DWN         PIN_DM_RES_DWN
+        #define sentidodegiroM1_DM_OD_LO           PIN_DM_OD_LO
+        #define sentidodegiroM1_DM_OD_HI           PIN_DM_OD_HI
+        #define sentidodegiroM1_DM_STRONG          PIN_DM_STRONG
+        #define sentidodegiroM1_DM_RES_UPDWN       PIN_DM_RES_UPDWN
+    /** @} driveMode */
+/** @} group_constants */
+    
+/* Digital Port Constants */
+#define sentidodegiroM1_MASK               sentidodegiroM1__MASK
+#define sentidodegiroM1_SHIFT              sentidodegiroM1__SHIFT
+#define sentidodegiroM1_WIDTH              2u
+
+/* Interrupt constants */
+#if defined(sentidodegiroM1__INTSTAT)
+/**
+* \addtogroup group_constants
+* @{
+*/
+    /** \addtogroup intrMode Interrupt constants
+     * \brief Constants to be passed as "mode" parameter in sentidodegiroM1_SetInterruptMode() function.
+     *  @{
+     */
+        #define sentidodegiroM1_INTR_NONE      (uint16)(0x0000u)
+        #define sentidodegiroM1_INTR_RISING    (uint16)(0x0001u)
+        #define sentidodegiroM1_INTR_FALLING   (uint16)(0x0002u)
+        #define sentidodegiroM1_INTR_BOTH      (uint16)(0x0003u) 
+    /** @} intrMode */
+/** @} group_constants */
+
+    #define sentidodegiroM1_INTR_MASK      (0x01u) 
+#endif /* (sentidodegiroM1__INTSTAT) */
+
+
+/***************************************
+*             Registers        
+***************************************/
+
+/* Main Port Registers */
+/* Pin State */
+#define sentidodegiroM1_PS                     (* (reg8 *) sentidodegiroM1__PS)
+/* Data Register */
+#define sentidodegiroM1_DR                     (* (reg8 *) sentidodegiroM1__DR)
+/* Port Number */
+#define sentidodegiroM1_PRT_NUM                (* (reg8 *) sentidodegiroM1__PRT) 
+/* Connect to Analog Globals */                                                  
+#define sentidodegiroM1_AG                     (* (reg8 *) sentidodegiroM1__AG)                       
+/* Analog MUX bux enable */
+#define sentidodegiroM1_AMUX                   (* (reg8 *) sentidodegiroM1__AMUX) 
+/* Bidirectional Enable */                                                        
+#define sentidodegiroM1_BIE                    (* (reg8 *) sentidodegiroM1__BIE)
+/* Bit-mask for Aliased Register Access */
+#define sentidodegiroM1_BIT_MASK               (* (reg8 *) sentidodegiroM1__BIT_MASK)
+/* Bypass Enable */
+#define sentidodegiroM1_BYP                    (* (reg8 *) sentidodegiroM1__BYP)
+/* Port wide control signals */                                                   
+#define sentidodegiroM1_CTL                    (* (reg8 *) sentidodegiroM1__CTL)
+/* Drive Modes */
+#define sentidodegiroM1_DM0                    (* (reg8 *) sentidodegiroM1__DM0) 
+#define sentidodegiroM1_DM1                    (* (reg8 *) sentidodegiroM1__DM1)
+#define sentidodegiroM1_DM2                    (* (reg8 *) sentidodegiroM1__DM2) 
+/* Input Buffer Disable Override */
+#define sentidodegiroM1_INP_DIS                (* (reg8 *) sentidodegiroM1__INP_DIS)
+/* LCD Common or Segment Drive */
+#define sentidodegiroM1_LCD_COM_SEG            (* (reg8 *) sentidodegiroM1__LCD_COM_SEG)
+/* Enable Segment LCD */
+#define sentidodegiroM1_LCD_EN                 (* (reg8 *) sentidodegiroM1__LCD_EN)
+/* Slew Rate Control */
+#define sentidodegiroM1_SLW                    (* (reg8 *) sentidodegiroM1__SLW)
+
+/* DSI Port Registers */
+/* Global DSI Select Register */
+#define sentidodegiroM1_PRTDSI__CAPS_SEL       (* (reg8 *) sentidodegiroM1__PRTDSI__CAPS_SEL) 
+/* Double Sync Enable */
+#define sentidodegiroM1_PRTDSI__DBL_SYNC_IN    (* (reg8 *) sentidodegiroM1__PRTDSI__DBL_SYNC_IN) 
+/* Output Enable Select Drive Strength */
+#define sentidodegiroM1_PRTDSI__OE_SEL0        (* (reg8 *) sentidodegiroM1__PRTDSI__OE_SEL0) 
+#define sentidodegiroM1_PRTDSI__OE_SEL1        (* (reg8 *) sentidodegiroM1__PRTDSI__OE_SEL1) 
+/* Port Pin Output Select Registers */
+#define sentidodegiroM1_PRTDSI__OUT_SEL0       (* (reg8 *) sentidodegiroM1__PRTDSI__OUT_SEL0) 
+#define sentidodegiroM1_PRTDSI__OUT_SEL1       (* (reg8 *) sentidodegiroM1__PRTDSI__OUT_SEL1) 
+/* Sync Output Enable Registers */
+#define sentidodegiroM1_PRTDSI__SYNC_OUT       (* (reg8 *) sentidodegiroM1__PRTDSI__SYNC_OUT) 
+
+/* SIO registers */
+#if defined(sentidodegiroM1__SIO_CFG)
+    #define sentidodegiroM1_SIO_HYST_EN        (* (reg8 *) sentidodegiroM1__SIO_HYST_EN)
+    #define sentidodegiroM1_SIO_REG_HIFREQ     (* (reg8 *) sentidodegiroM1__SIO_REG_HIFREQ)
+    #define sentidodegiroM1_SIO_CFG            (* (reg8 *) sentidodegiroM1__SIO_CFG)
+    #define sentidodegiroM1_SIO_DIFF           (* (reg8 *) sentidodegiroM1__SIO_DIFF)
+#endif /* (sentidodegiroM1__SIO_CFG) */
+
+/* Interrupt Registers */
+#if defined(sentidodegiroM1__INTSTAT)
+    #define sentidodegiroM1_INTSTAT            (* (reg8 *) sentidodegiroM1__INTSTAT)
+    #define sentidodegiroM1_SNAP               (* (reg8 *) sentidodegiroM1__SNAP)
+    
+	#define sentidodegiroM1_0_INTTYPE_REG 		(* (reg8 *) sentidodegiroM1__0__INTTYPE)
+	#define sentidodegiroM1_1_INTTYPE_REG 		(* (reg8 *) sentidodegiroM1__1__INTTYPE)
+#endif /* (sentidodegiroM1__INTSTAT) */
+
+#endif /* CY_PSOC5A... */
+
+#endif /*  CY_PINS_sentidodegiroM1_H */
+
+
+/* [] END OF FILE */
