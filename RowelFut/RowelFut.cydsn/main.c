@@ -48,18 +48,18 @@ CY_ISR(detectarfase1){
         if(fase==0b101 || fase==0b010)
         {
             if(sentidodegiroM1_Read() == 0b10){
-                sentidodegiroM1_Write(0b10);
-                CyPins_SetPin(M1_1);
+                //sentidodegiroM1_Write(0b10);
+                CyPins_SetPin(M1_1);    
             }
         }
         else{
             if(fase==0b011 || fase==0b100 )
             {
                 if(sentidodegiroM1_Read() == 0b01){
-                    sentidodegiroM1_Write(0b01);
+                    //sentidodegiroM1_Write(0b01);
                     CyPins_ClearPin(M1_1);
                 }
-            }    
+            }
         }
         velocidad=(-17*contador+1070000)/10000;
     }
@@ -67,9 +67,9 @@ CY_ISR(detectarfase1){
     PWM1_WritePeriod(p);
     PWM1_WriteCompare(p/2);
     LED_Write(1);
-    CyDelay(20);
+  
     sentidodegiroM1_Write(0b00);
-detectorFaseM1_ClearInterrupt();
+    detectorFaseM1_ClearInterrupt();
 }
 CY_ISR(detectarfase2){
     iniciarPWM=1;
@@ -88,7 +88,7 @@ CY_ISR(detectarfase2){
         if(fase==0b101 || fase==0b010)
         {
             if(sentidodegiroM2_Read() == 0b10){
-                sentidodegiroM2_Write(0b10);
+                //sentidodegiroM2_Write(0b10);
                 CyPins_SetPin(M2_1);
             }
         }
@@ -96,7 +96,7 @@ CY_ISR(detectarfase2){
             if(fase==0b011 || fase==0b100 )
             {
                 if(sentidodegiroM2_Read() == 0b01){
-                    sentidodegiroM2_Write(0b01);
+                    //sentidodegiroM2_Write(0b01);
                     CyPins_ClearPin(M2_1);
                 }
             }    
@@ -127,7 +127,7 @@ int main(void)
     Motor2_Write(0);
     a = Periodo;
     p = 10000;
-    iniciarPWM = 0;;// 0->no || 1->si
+    iniciarPWM = 0;// 0->no || 1->si
     sentidoGiro = 0;
     jugador = 0;
     faseMotor1 = 0;
